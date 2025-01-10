@@ -200,7 +200,101 @@ You can access the application by navigating to `http://localhost:3000`
 ### [Some frames from the Application]()
 <div style="text-align:justify">
 
+This is for an unregistered user, the home page:
 
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/unregistered01.png" alt="image03">
+</div>
+
+when the user goes to `Search Movies` navbar:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/unregistered02.png" alt="image04">
+</div>
+
+This is the login page with okta-sign-in widget:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/OktaWidget01.png" alt="image05">
+</div>
+
+This is the registration side of the okta-sign-in widget:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/OktaWidget02.png" alt="image06">
+</div>
+
+What a registered user goes to a movie page can see in the first part, which are movie card and iframe streaming:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered01.png" alt="image07">
+</div>
+
+in the second part, which are watchlist `add` button and similar movies to the selected one:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered02.png" alt="image08">
+</div>
+
+in the third part, which he can leave a rating and comment and see the list posted comments:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered03.png" alt="image09">
+</div>
+
+When the user redirects to the watchlist:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered04.png" alt="image10">
+</div>
+
+the user can remove or redirect to the movie's page again, and also the user can see what's in his/her history:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered05.png" alt="image11">
+</div>
+
+A registered user can also leave queries to the admins:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered06.png" alt="image12">
+</div>
+
+Or, they can see their posted and answered queries:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/registered07.png" alt="image13">
+</div>
+
+The admins can additionally have an `admin` navbar link, which can add a new movie:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/admin01.png" alt="image14">
+</div>
+
+Or they can search for a movie to change it:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/admin02.png" alt="image15">
+</div>
+
+And when they find their movie to change:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/admin03.png" alt="image16">
+</div>
+
+Simply they can be editing it:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/admin04.png" alt="image17">
+</div>
+
+They can also respond to the queries posted by the users:
+
+<div align="center">
+    <img src="https://github.com/korhanertancakmak/MovieWebApplication/blob/master/images/admin05.png" alt="image18">
+</div>
 
 </div>
 
