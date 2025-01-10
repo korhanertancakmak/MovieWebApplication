@@ -1,0 +1,250 @@
+.reasonsToJoin-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-title-wrapper {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-title-wrapper >
+.reasonsToJoin-title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container {
+    width: 100%;
+    height: auto;
+    margin: 0.75rem 0 0 0;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(100% + 0.5rem);
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    margin-left: -0.5rem;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex: 0 0 calc(100% - 0.5rem);
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container >
+.reasonsToJoin-item-wrapper {
+    border-radius: 1rem;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    place-content: center space-between;
+    overflow: hidden;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12px);
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container >
+.reasonsToJoin-item-wrapper >
+.reasonsToJoin-item-title {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+    flex: 0 0 58.333333333333336%;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container >
+.reasonsToJoin-item-wrapper >
+.reasonsToJoin-item-title > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container >
+.reasonsToJoin-item-wrapper >
+.reasonsToJoin-item-logo-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: inherit;
+    padding: 0;
+    justify-content: flex-end;
+    flex: 0 0 41.66666666666667%;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container >
+.reasonsToJoin-item-wrapper >
+.reasonsToJoin-item-logo-container >
+.reasonsToJoin-item-logo-wrapper {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.reasonsToJoin-container > 
+.reasonsToJoin-content-container >
+.reasonsToJoin-content-wrapper >
+.reasonsToJoin-item-container >
+.reasonsToJoin-item-wrapper >
+.reasonsToJoin-item-logo-container >
+.reasonsToJoin-item-logo-wrapper > svg {
+    overflow: hidden;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 960px) {
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container {
+        flex: 0 0 calc(25% - 0.75rem);
+        margin-left: 0.75rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper {
+        flex-direction: column;
+        place-content: flex-start flex-start;
+        padding: 0.75rem 1rem 5.25rem 1rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper >
+    .reasonsToJoin-item-title {
+        flex: 0 0 100%;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper >
+    .reasonsToJoin-item-logo-container {
+        width: calc(41.66666666666667% - 0px);
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper >
+    .reasonsToJoin-item-logo-container >
+    .reasonsToJoin-item-logo-wrapper {
+        position: absolute;
+        bottom: 0.5rem;
+        right: 1rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper >
+    .reasonsToJoin-item-logo-container >
+    .reasonsToJoin-item-logo-wrapper > svg {
+        overflow: hidden;
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .reasonsToJoin-container {
+        margin-bottom: 2.5rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-title-wrapper >
+    .reasonsToJoin-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper {
+        width: calc(100% + 0.75rem);
+        margin-left: -0.75rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container {
+        margin-left: 0.75rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper {
+        padding: 0.875rem 1rem 4.5rem 1rem;
+    }
+    .reasonsToJoin-container > 
+    .reasonsToJoin-content-container >
+    .reasonsToJoin-content-wrapper >
+    .reasonsToJoin-item-container >
+    .reasonsToJoin-item-wrapper >
+    .reasonsToJoin-item-title > p {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1920px) {
+}

@@ -1,0 +1,556 @@
+.exploreTopMovies-container {
+    height: 34.5rem;
+    max-width: 114rem;
+    width: 100%;
+}
+
+.exploreTopMovies-container >
+.hero {
+    height: calc(100% - 16px) ;
+    width: 100%;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.hero > 
+.hero-container {
+    position: relative;
+    height: 100%;
+    filter: drop-shadow(12px 16px 12px rgba(0, 0, 0, 0.6));
+}
+
+.hero >
+.hero-container >
+.hero-slider-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 8px 8px;
+    mask-image: radial-gradient(101% 10% at 50% 102%, transparent 50%, white 52%);
+}
+
+.hero >
+.hero-container >
+.hero-slider-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    background: radial-gradient(at top left, white 25%, transparent 70%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: 100;
+    pointer-events: none;
+    border-radius: 12px 12px 8px 8px;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item {
+    background: rgba(249, 146, 151, 0.2);
+    height: 100%;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-card {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    mask-image: linear-gradient(180deg, #fff 71.48%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-card >
+.content-card-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.90) 29.25%, rgba(0, 0, 0, 0.40) 64.5%);
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-card >
+.content-card {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    animation: 120s linear 0s infinite normal none running slide;
+    display: flex;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-card >
+.content-card.paused {
+    animation-play-state: paused;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-card >
+.content-card > img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-button {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1.5rem;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-button >
+.button {
+    font: inherit;
+    margin: 0;
+    text-decoration: none;
+    align-items: center;
+    border: 1px solid dimgray;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    padding: 2px 7px;
+    user-select: none;
+    border-radius: 1.25rem;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.4,0,0.68,0.06);
+    vertical-align: text-top;
+    border-style: solid;
+    border-width: 0.0625rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-button >
+.button >
+.play-pause-svg-wrapper {
+    display: inline-block;
+    height: 1.5rem;
+}
+
+.hero >
+.hero-container >
+.hero-slider-container >
+.hero-slider-wrapper >
+.hero-slider-item-wrapper >
+.hero-slider-item >
+.hero-slider-content-button >
+.button >
+.play-pause-svg-wrapper > svg {
+    height: inherit;
+    width: 1.5rem;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper {
+    position: relative;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper {
+    height: 33.5rem;
+    padding: 0 1rem 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 120rem;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper > 
+.hero-caption-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    max-width: 100%;
+    text-wrap: pretty;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper > 
+.hero-caption-item > 
+.hero-caption-item-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    line-height: 125%;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper > 
+.hero-caption-item > 
+.hero-caption-item-membership {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 0rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper > 
+.hero-caption-item > 
+.hero-caption-item-button {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+    min-height: 3.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 100px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    flex: 0 0 auto;
+    margin: 1rem auto;
+    pointer-events: auto;
+    z-index: 101;
+}
+
+.hero >
+.hero-container >
+.hero-caption-container > 
+.hero-caption-wrapper > 
+.hero-caption-item > 
+.hero-caption-item-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    .hero >
+    .hero-container >
+    .hero-slider-container {
+        mask-image: radial-gradient(103% 10.5% at 50% 102%, transparent 50%, white 52%);
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper {
+        padding: 0 1rem 2.5rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item {
+        text-align: center;
+        max-width: 24.6825rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-membership {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-button {
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 960px) {
+    .exploreTopMovies-container {
+        width: calc(100vw - 4rem);
+    }
+    .hero > 
+    .hero-container {
+        filter: drop-shadow(24px 32px 24px rgba(0, 0, 0, 0.6));
+    }
+    .hero >
+    .hero-container >
+    .hero-slider-container {
+        mask-image: radial-gradient(103% 11% at 50% 102%, transparent 50%, white 51%);
+    }
+    .hero >
+    .hero-container >
+    .hero-slider-container::before {
+        border-radius: 20px 20px 16px 16px;
+    }
+    .hero >
+    .hero-container >
+    .hero-slider-container >
+    .hero-slider-wrapper >
+    .hero-slider-item-wrapper >
+    .hero-slider-item >
+    .hero-slider-content-button {
+        bottom: 2rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper {
+        padding: 0 5rem 3.5rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item {
+        margin-left: auto;
+        margin-bottom: 0rem;
+        text-align: center;
+        max-width: 36.625rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-title {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 0.75rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-membership {
+        font-size: 1.125rem;
+        font-weight: 400;
+        margin-bottom: 0.75rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-button {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1280px) {
+    .exploreTopMovies-container {
+        width: calc(100vw - 6rem);
+    }
+    .hero >
+    .hero-container >
+    .hero-slider-container {
+        mask-image: radial-gradient(103% 12% at 50% 102%, transparent 50%, white 51%);
+    }
+    .hero >
+    .hero-container >
+    .hero-slider-container >
+    .hero-slider-wrapper >
+    .hero-slider-item-wrapper >
+    .hero-slider-item >
+    .hero-slider-content-card >
+    .content-card-shadow {
+        background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.90) 31.45%, rgba(0, 0, 0, 0.40) 82.5%);
+    }
+    .hero >
+    .hero-container >
+    .hero-slider-container >
+    .hero-slider-wrapper >
+    .hero-slider-item-wrapper >
+    .hero-slider-item >
+    .hero-slider-content-button {
+        right: 2.5rem;
+        bottom: 2.5rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper {
+        padding: 0 5rem 4.5rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item {
+        max-width: 37.5rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-title {
+        font-size: 3.5rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-membership {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+    .hero >
+    .hero-container >
+    .hero-caption-container > 
+    .hero-caption-wrapper > 
+    .hero-caption-item > 
+    .hero-caption-item-button {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,50 @@
+.backgroundLayout-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.backgroundLayout-container > .backgroundLayout1 {
+    background: url('../../../Images/background.jpg') 50% center / cover no-repeat;
+    filter: blur(16px);
+    position: absolute;
+    height: 37.5rem;
+    width: 100%;
+    opacity: 0.16;
+    mask-image: linear-gradient(rgb(217, 217, 217) 78.62%, rgba(115, 115, 115, 0) 100%);
+}
+
+.backgroundLayout-container > .backgroundLayout2 {
+    opacity: 75%;
+    background: radial-gradient(92.16% 100% at 49.87% 0%, rgba(247, 99, 107, 0.3) 19.86%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 45rem;
+    width: 100%;
+}
+
+.backgroundLayout-container > .backgroundLayout3 {
+    background: radial-gradient(50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 45rem;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .backgroundLayout-container > .backgroundLayout1 {
+        height: 50rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .backgroundLayout-container > .backgroundLayout1 {
+        height: 62.5rem;
+    }
+}
+
+@media (min-width: 1920px) {
+    .backgroundLayout-container > .backgroundLayout1 {
+        height: 87.5rem;
+    }
+}
