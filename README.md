@@ -30,7 +30,7 @@ And an admin additionally is able to
 
 </div>
 
-## [Application Architecture]()
+## [Application Demo]()
 <div style="text-align:justify">
 
 For demo, you can visit [demo-site](https://coreflix-movies.netlify.app/)
