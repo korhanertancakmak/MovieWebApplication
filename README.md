@@ -33,6 +33,12 @@ And an admin additionally is able to
 ## [Application Architecture]()
 <div style="text-align:justify">
 
+For demo, you can visit [demo-site](https://coreflix-movies.netlify.app/)
+</div>
+
+## [Application Architecture]()
+<div style="text-align:justify">
+
 This application architecture is based on the regular **Spring MVC**.
 Our controllers will handle our web requests.
 We have a service layer that provides our business logic and the repository provides our database access.
